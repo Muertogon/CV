@@ -1,0 +1,19 @@
+#noPro{
+    margin-top: 82px;
+    background: url("project1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#oneDiv{
+    min-height: 820px;
+    background-color: rgba(182, 182, 182, 0.3);
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#152235;
+}
+#text{
+    align-content: center;
+}

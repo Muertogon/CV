@@ -1,0 +1,197 @@
+#yellowtree{
+    margin-top: 70px;
+}
+.avatar{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    position: relative;
+    left: 27px;
+}
+.right{
+    position: relative;
+    left: -2px;
+    max-width: 465px;
+}
+#a{
+    position: absolute;
+    top: 5em;
+    right: 1.4em;
+}
+#b{
+    position: absolute;
+    top: 9em;
+    right: 2em;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#152235;
+}
+#c{
+    position:absolute;
+    display: flex;
+    top: 16em;
+    right: 2em;
+    left:2em;
+    text-align: end;
+}
+
+#e{
+    position: absolute;
+    top: 11em;
+    left: 4em;
+}
+#litva{
+    top: 5em;
+}
+#litvaPro{
+    top: 13em;
+}
+#england{
+    top: 8em;
+}
+#englandPro{
+    top: 17.7em;
+}
+#russia{
+    top: 11em;
+}
+#russiaPro{
+    top: 22.2em;
+}
+#firstLink{
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+}
+#secondLink{
+    position: absolute;
+    bottom: 0.5em;
+    right: 2.5em;
+}
+#thirdLink{
+    position: absolute;
+    bottom: 0.5em;
+    right: 4em;
+}
+.skillsTab{
+    margin: 50px;
+    font-size: 28px;
+}
+#firstSkills{
+    max-width: 100% !important;
+}
+/*PHONE*/
+@media screen and (min-width: 360px) and (max-width: 799px){
+    .left{
+        min-width: 325px;
+    }
+    .middle{
+        min-width: 325px;
+        max-height: 485px;
+    }
+    .right{
+        min-width: 280px;
+    }
+    #stuff{
+        display:flex;
+        flex-direction: column;
+    }
+    #stuff2{
+        display:flex;
+        flex-direction: column;
+    }
+    #a{
+        text-align:center;
+        right: 2.6em;
+    }
+    #b{
+        text-align:center;
+        right: 2.2em;
+    }
+    #c{
+        text-align:center;
+        margin-top: -20px;
+    }
+    #language{
+        text-align: center;
+    }
+    #one{
+        width: 100%;
+    }
+    #two{
+        width: 100%;
+    }
+    #three{
+        width: 100%;
+    }
+}
+/*TABLET*/
+@media screen and (min-width: 799px) and (max-width: 1280px){
+    .left{
+        min-width: 500px;
+    }
+    .middle{
+        max-width: 480px;
+    }
+    .right{
+        position: relative;
+        min-width: 500px;
+    }
+    #stuff{
+        display:flex;
+        flex-direction: column;
+    }
+    #stuff2{
+        display:flex;
+        flex-direction: column;
+    }
+    #a{
+        text-align:center;
+        right: 5em;
+    }
+    #b{
+        text-align:center;
+        right: 5.5em;
+    }
+    #c{
+        text-align:center;
+        margin-top: -10px;
+    }
+    #language{
+        text-align: center;
+    }
+    #one{
+        width: 100%;
+    }
+    #two{
+        width: 100%;
+    }
+    #three{
+        width: 100%;
+    }
+}
+/*LAPTOP*/
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    .left{
+        position: relative;
+        bottom: -2em;
+    }
+    .middle{
+        max-height: 500px;
+        position: relative;
+        bottom: -6em;
+    }
+    .right{
+        max-width: 350px;
+        position: relative;
+        bottom: -2em;
+    }
+    #stuff{
+        display:flex;
+        flex-direction: column;
+    }
+    #stuff2{
+        display:flex;
+        flex-direction: column;
+    }
+}
